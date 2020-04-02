@@ -23,9 +23,9 @@ Output of this notebook is table with both already segmented customers and new c
 
 It is pre-set to work with Mall_Customers-New.csv, but again there is commented out part of the code for downloading data, model and scaler from a PostgreSQL database.
 
-File customer_segments_DAG.py is for the deployment with Airflow server. It has task to execute the notebook New_data_segments.ipynb, that is scheduled to run every night.
+File __customer_segments_DAG.py__ is for the deployment with Airflow server. It has task to execute the notebook New_data_segments.ipynb, that is scheduled to run every night.
 
-The notebook has a snippet of code, that checks whether there are some new customers at all and stop the execution of the code, if there not any.
+The notebook has a snippet of code, that checks whether there are some new customers at all and stop the execution of the code, if there are not any.
 
 ### Presentation 
 Project presentation is in the attached __Customer_Segmentation.pptx__ powerpoint presentation - read explanation under each slide for full understanding :)
