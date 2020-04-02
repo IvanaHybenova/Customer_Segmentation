@@ -12,7 +12,7 @@ Dataset - Mall_Customers.csv has 200 unique rows with 5 columns
 ![image](https://user-images.githubusercontent.com/31499140/78266332-f261bf80-7505-11ea-98da-644fbaf9f188.png)
 
 ### Clustering
-The main part of the project is happening in __Customer_Segmentation.ipynb__. The dataset notebook is pre-set to work with the __Mall_Customers.csv__, but for production there is commented out part in cell with input parameters with details to download and save the data to a Postgresql database and also save the model and standard scaler to the database.
+The main part of the project is happening in __Customer_Segmentation.ipynb__. The dataset notebook is pre-set to work with the __Mall_Customers.csv__, but for production there is commented out part in cell with input parameters with details to download and save the data to a Postgresql database alongside with the model and standard scaler.
 
 ### Deployment
 Nootebook __New_data_segments.ipynb__ is for assigning segments to new customers (if there are any) based on existing clusters. 
