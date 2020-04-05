@@ -28,7 +28,7 @@ File __customer_segments_DAG.py__ is for the deployment with Airflow server. It 
 The notebook has a snippet of code, that checks whether there are some new customers at all and stop the execution of the code, if there are not any.
 
 ### Presentation 
-Project presentation is in the attached powerpoint presentation __Customer_Segmentation.pptx__ - read explanation under each slide for full understanding :)
+Project presentation is in the attached powerpoint presentation __Customer_Segmentation.pptx__, or you can view it as a markdown file __Customer_Segmentation.md__ - read accompanying text under each slide for full understanding :)
 
 File __Customer_Segmentation-Result.html__ is part of the presentation.
 
