@@ -36,7 +36,7 @@
   The distance measure was chosen Euclidean distance, the most popular one. Euclidean distance measures the distance between two points with the shortest, straight line.
 
   On the picture we can see two points in two dimensional space – with X axis and Y axis. In our case we have 4 dimensions. To make sure that one axis is not too big compared to other I needed to 
-  scale the data, so values for each feature are on the same scale, with mean 0 and standard deviation 1. With this approach I assured that each feature has the similar weight when creating the clusters.
+  scale the data, so values for each feature are on the same scale, with mean 0 and standard deviation 1. With this approach I ensured that each feature has the similar weight when creating the clusters.
   The effect of the standard scaling is clear from the sample.
 
   Besides that I want to point out that gender column taking values female and male, needed to be split into two columns - female and male with zeros and ones, since we need to use numbers
