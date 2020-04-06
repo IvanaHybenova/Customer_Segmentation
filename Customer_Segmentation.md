@@ -43,7 +43,7 @@
   In mathematical models. One simply means that the customers is a female and 0 that the customer is not a female (in Female column).
 </details>  
 
-![image](https://user-images.githubusercontent.com/31499140/78499483-414f6500-7751-11ea-8e76-cbbaee99d057.png)  
+![image](https://user-images.githubusercontent.com/31499140/78548119-7f579200-7800-11ea-8e0a-2cad0286fe7e.png)  
 
 <details>
   <summary>Accompanying talk - click to expand!</summary>
@@ -53,7 +53,7 @@
   but only a little.
 </details>  
 
-![image](https://user-images.githubusercontent.com/31499140/78499527-765bb780-7751-11ea-89a2-e47256be5c77.png) 
+![image](https://user-images.githubusercontent.com/31499140/78548183-a2824180-7800-11ea-9e45-ad1e39fbeaf9.png)
 
 <details>
   <summary>Accompanying talk - click to expand!</summary>
