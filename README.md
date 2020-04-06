@@ -7,7 +7,7 @@ A mall holds some information about its clients, e.g. gender, age, aunnual incom
 The goal of this project is to find customer segments based on all these information, describe them and analyze spending score in each segment. Solution should be delivered in a form, in which it allows easily repeat the segmentation excercise and allow quick and automated labeling of each new customer.
 
 ### Dataset
-Dataset - Mall_Customers.csv has 200 unique rows with 5 columns
+Dataset - __Mall_Customers.csv__ has 200 unique rows with 5 columns
 
 ![image](https://user-images.githubusercontent.com/31499140/78266332-f261bf80-7505-11ea-98da-644fbaf9f188.png)
 
@@ -25,9 +25,11 @@ It is pre-set to work with Mall_Customers-New.csv, but again there is commented 
 
 Alternatively it is possible to run __New_data_segments.py__ from the command line, passing path to the data, model and scaler.
 If the files are all in the same folder run it witht he command:
-__python New_data_segments.py model.pkl scaler_mapper.pkl__
+__python New_data_segments.py Mall_customers-New.csv model.pkl scaler_mapper.pkl__
 
 File __customer_segments_DAG.py__ is for the deployment with Airflow server. It has task to execute the notebook New_data_segments.ipynb, that is scheduled to run every night.
+
+File __customer_segmentation_helper.py__ contains the 'data' class, which methods are used to do the clustering analysis and functions to assign segment to the new data.
 
 The notebook has a snippet of code, that checks whether there are some new customers at all and stop the execution of the code, if there are not any.
 
