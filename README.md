@@ -23,6 +23,10 @@ Output of this notebook is table with both already segmented customers and new c
 
 It is pre-set to work with Mall_Customers-New.csv, but again there is commented out part of the code for downloading data, model and scaler from a PostgreSQL database.
 
+Alternatively it is possible to run __New_data_segments.py__ from the command line, passing path to the data, model and scaler.
+If the files are all in the same folder run it witht he command:
+__python New_data_segments.py model.pkl scaler_mapper.pkl__
+
 File __customer_segments_DAG.py__ is for the deployment with Airflow server. It has task to execute the notebook New_data_segments.ipynb, that is scheduled to run every night.
 
 The notebook has a snippet of code, that checks whether there are some new customers at all and stop the execution of the code, if there are not any.
